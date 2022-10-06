@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import TechnoScreen from './screens/TechnoScreen';
+import ContactScreen from './screens/ContactScreen';
+import BaseScreen from './screens/BaseScreen';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ExperienceScreen from './screens/ExperienceScreen';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='bg-slate-900'>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<BaseScreen />}>
+            <Route path="/techno" element={<TechnoScreen/>}/>
+            <Route path="/contact" element={<ContactScreen/>}/>
+            <Route path="/experience" element={<ExperienceScreen/>}/>
+          </Route>
+
+
+        </Routes>
+      
+      </BrowserRouter>
+
     </div>
   );
 }
