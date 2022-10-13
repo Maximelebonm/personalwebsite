@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.ContentPage{
+  background: linear-gradient(45deg, #1CB5E0 0%, #000851 100%);
+}
