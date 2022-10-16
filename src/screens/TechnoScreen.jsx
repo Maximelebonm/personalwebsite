@@ -4,14 +4,14 @@ import Undertitle from "../components/undertitle";
 const TechnoScreen=()=> {
 
         return (
-            <div class="pt-20 z-30">
+            <div class="z-30">
                 <div class="flex flex-col justify-center">
                     <div>
                         <div class="text-white text-center mt-2 text-lg font-bold"><h2>Technologie Front-End</h2></div>
                         <Undertitle/>
                         <div class="grid lg:grid-cols-3 sm:grid-cols-2 justify-items-center">
                             <Card title="HTML5" subtitle="Langage informatique" desc="Utilisation de HTML5 pour structurer une page web ou une application notament que ce soit en vanilla ou en dans un return JSX de react" src={process.env.PUBLIC_URL + '/iconSvg/html5.svg'} id="html5"/>
-                            <Card title="CSS3" subtitle="Langage informatique" desc="Utilisation de css3 pour mettre en page différents sites web, mais aussi pour animé différents éléments" src={process.env.PUBLIC_URL + '/iconSvg/css3.svg'} />
+                            <Card title="CSS3" subtitle="Langage informatique" desc="Utilisation de css3 pour mettre en page différents sites web, mais aussi pour animé différents éléments" src={process.env.PUBLIC_URL + '/iconSvg/Css3.svg'} />
                             <Card title="TailWind" subtitle="Framework CSS" desc="Pour plus d'éfficacité et un code moins lourd la bibliothèque tailwind me permet de développer éfficacement divers sites web et application" src={process.env.PUBLIC_URL + '/iconSvg/tailwind-css-2.svg'} />
                         </div>
                     </div>

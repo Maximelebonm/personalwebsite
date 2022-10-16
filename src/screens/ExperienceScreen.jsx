@@ -4,7 +4,7 @@ import Undertitle from "../components/undertitle";
 
 const ExperienceScreen = () => {
     return (
-        <div class="pt-16">
+        <div class="">
             <div class="mt-2">
             <div class="text-white text-center mt-4 text-lg font-bold"><h2>Expérience professionnel dans le developpement</h2></div>
             <Undertitle/>

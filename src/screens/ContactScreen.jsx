@@ -1,6 +1,6 @@
 const ContactScreen=()=>{
     return(
-        <div class="pt-12 h-screen">
+        <div class="h-screen">
             <div class="text-white text-center p-2 m-2 rounded-lg">
             Par mail :
             lebon.maxime.m@gmail.com

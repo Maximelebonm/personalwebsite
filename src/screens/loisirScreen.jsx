@@ -3,7 +3,7 @@ const LoisirScreen=()=>{
 
 
     return(
-        <div class="pt-12 h-screen text-white text-center">
+        <div class="h-screen text-white text-center">
             <div class="font-bold pt-4">
                 Mes différents projets personnel
             </div>

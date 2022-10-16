@@ -8,7 +8,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ExperienceScreen from './screens/ExperienceScreen';
 import LoisirScreen from './screens/loisirScreen';
 
-function App() {
+const App = () => {
+ 
   return (
     <div>
       <div className="ContentPage pt-4 h-screen w-screen">
@@ -23,7 +24,7 @@ function App() {
             <Route path="/loisir" element={<LoisirScreen/>}/>
             <Route path="/contact" element={<ContactScreen/>}/>
           </Route>
-
+          <Route path="*" element={<ContactScreen />} />
         </Routes>      
       </BrowserRouter>
     </div>
