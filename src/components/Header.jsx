@@ -14,13 +14,13 @@ window.addEventListener('scroll', ()=>{
 })
 
     return (
-        <nav class="fixed top-0 z-50 text-white w-screen " id="menu">
-            <div class="text-white justify-center w-full flex inline" >
-            <Link to="/"><div class="hover:bg-sky-500 p-4 align-middle text-center transition duration-700 ease-in-out" >Presentation</div></Link>
-                <Link to="/techno"><div class="hover:bg-sky-500 p-4 align-middle text-center duration-700 ease-in-out" >Logiciels et technologies</div></Link>
-                <Link to="/experience"><div class="hover:bg-sky-500 p-4 align-middle text-center duration-700 ease-in-out">Experiences professionnelles</div></Link>
-                <Link to="/loisir"><div class="hover:bg-sky-500 p-4 align-middle text-center duration-700 ease-in-out">Loisirs et projets</div></Link>
-                <Link to="/contact"><div class="hover:bg-sky-500 p-4 align-middle text-center duration-700 ease-in-out">Me contacter</div></Link>
+        <nav class="fixed top-0 z-50 text-white w-screen backdrop-blur-3xl bg-sky-600/[.1]" id="menu">
+            <div class="text-white text-sm justify-center w-full flex inline" >
+            <Link to="/"><div class="hover:bg-sky-500 p-4 align-middle text-center transition duration-500 ease-in-out" >Presentation</div></Link>
+                <Link to="/techno"><div class="hover:bg-sky-500 p-4 align-middle text-center duration-500 ease-in-out" >Logiciels et technologies</div></Link>
+                <Link to="/experience"><div class="hover:bg-sky-500 p-4 align-middle text-center duration-500 ease-in-out">Experiences professionnelles</div></Link>
+                <Link to="/loisir"><div class="hover:bg-sky-500 p-4 align-middle text-center duration-500 ease-in-out">Loisirs et projets</div></Link>
+                <Link to="/contact"><div class="hover:bg-sky-500 p-4 align-middle text-center duration-500 ease-in-out">Me contacter</div></Link>
             </div>
         </nav>
     )
