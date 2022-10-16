@@ -10,7 +10,10 @@ import LoisirScreen from './screens/loisirScreen';
 
 function App() {
   return (
-    <div className="ContentPage pt-4">
+    <div>
+      <div className="ContentPage pt-4 h-screen w-screen">
+    </div>
+
       <BrowserRouter>
         <Routes>        
           <Route path="/" element={<BaseScreen />}>
@@ -23,8 +26,8 @@ function App() {
 
         </Routes>      
       </BrowserRouter>
-
     </div>
+
   );
 }
 
