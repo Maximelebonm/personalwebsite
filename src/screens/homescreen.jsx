@@ -11,7 +11,7 @@ const HomeScreen=()=>{
             <div class="pt-4">
                 Pour commencer, une rapide présentation de moi, je m'appel Maxime j'ai 31 ans,
                 j'ai terminé une reconversion professionnelle et souhaites trouver mon 1er emploi en tant que développeur junior.
-                firebaseok
+                firebase
             </div>
             <div class="">
                 Mes soft compétences
