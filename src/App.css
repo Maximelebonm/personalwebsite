@@ -38,5 +38,8 @@
 }
 
 .ContentPage{
-  background: linear-gradient(45deg, #1CB5E0 0%, #000851 80%);
+  position : fixed;
+  z-index : -1;
+  background-color: #000851;
+  background: linear-gradient(45deg, rgba(28,181,224,1) 0%, rgba(0,8,81,1) 70%);
 }

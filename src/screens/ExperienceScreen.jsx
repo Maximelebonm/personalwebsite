@@ -4,11 +4,11 @@ import Undertitle from "../components/undertitle";
 
 const ExperienceScreen = () => {
     return (
-        <div class="pt-12">
+        <div class="pt-16">
             <div class="mt-2">
-            <div class="text-white text-center mt-2 text-lg font-bold"><h2>Expérience professionnel dans le developpement</h2></div>
+            <div class="text-white text-center mt-4 text-lg font-bold"><h2>Expérience professionnel dans le developpement</h2></div>
             <Undertitle/>
-            <div class="grid lg:grid-cols-3 sm:grid-cols-2 justify-self-center">
+            <div class="grid lg:grid-cols-3 sm:grid-cols-2 justify-items-center">
                 <Experience Date="depuis Septembre 2022" Title="Incubateur chez M2I formation / AFPA" desc="Intégration d'une équipe de travail sur un projet e-commerce 
                     mise en place de la méthode agile, conception (MCD,MLD,UseCase,Maquettage...)
                     Devellopement de du site internet deskstop front-end avec ReactJS 
@@ -18,7 +18,7 @@ const ExperienceScreen = () => {
             </div>
             <div class="text-white text-center mt-2 text-lg font-bold"><h2>Expérience professionnel avant ma reconversion</h2></div>
             <Undertitle/>
-            <div class="grid lg:grid-cols-3 sm:grid-cols-2 justify-self-center">
+            <div class="grid lg:grid-cols-3 sm:grid-cols-2 justify-items-center">
                 <Experience Date="Depuis mai 2018" Title="Chef d'entreprise" desc="Freelance dans mon entreprise MaxGraphiste, je fût en charge de la réalisation de différents logotypes, chartres graphique, affiches, flyer, cartes de visites, ainsi que de retouches photos
                 mais aussi de la gestion de mon entreprise"/>
                 <Experience Date="Juin 2017" Title="Stage Service Communication SEM (6 mois)" desc="Responsable graphisme et communication au syndicat myxte de l'escaut pour soutenir les animaitons et préventions sur l'environement. "/>
