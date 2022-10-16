@@ -9,5 +9,15 @@
     
 }
 #reactjs{
+    animation : spin linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5000ms;
+}
+@keyframes spin{
+    0%{
 
+    }
+    100%{
+        transform : rotate(-360deg);
+    }
 }
