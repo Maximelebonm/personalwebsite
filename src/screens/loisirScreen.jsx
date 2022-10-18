@@ -1,4 +1,6 @@
 import Card from "../components/Card"
+import "../CSS/Card.css"
+import Undertitle from "../components/undertitle"
 const LoisirScreen=()=>{
 
 
@@ -7,9 +9,10 @@ const LoisirScreen=()=>{
             <div class="font-bold pt-4">
                 Mes différents projets personnel
             </div>
-            <div class="pt-4">
-                    <Card title="Maks Nobel" src="" desc="Projet musical dont je suis le musicien, ingénieur du son, monteur vidéo, communicant"/>
-                    <Card title="BeMusician" src="" desc="Projet d'application pour apprendre à jouer d'un instrument"/>
+            <Undertitle/>
+            <div class="pt-4 grid lg:grid-cols-3 sm:grid-cols-2 justify-items-center">
+                    <Card title="Maks Nobel" id="maksnobel" src={process.env.PUBLIC_URL + '/img/maksnobel.png'} desc="Projet musical dont je suis le musicien, ingénieur du son, monteur vidéo, communicant"/>
+                    <Card title="BeMusician" src={process.env.PUBLIC_URL + '/img/bemusician.png'} desc="Projet d'application pour apprendre à jouer d'un instrument"/>
             </div>
         </div>
     )

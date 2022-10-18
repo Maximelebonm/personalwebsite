@@ -21,7 +21,7 @@
         transform : rotate(-360deg);
     }
 }
-
+/* 
 #html5{
     animation: rotate-vert-center linear infinite both;
     animation-duration: 5000ms;
@@ -36,4 +36,8 @@
               transform: rotateY(360deg);
     }
   }
-  
+   */
+
+   #maksnobel{
+    border-radius: 100%;
+   }
