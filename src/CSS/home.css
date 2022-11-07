@@ -3,12 +3,13 @@
     animation: lumiere linear;
     animation-duration : 10000ms;
     animation-iteration-count: infinite;
-   
-    
 }
-
+.title{
+    width : 450px;
+}
 .contentanim{
     position : fixed;
+    z-index : -1;
     width : 640px;
     height : 100%;
     overflow : hidden;

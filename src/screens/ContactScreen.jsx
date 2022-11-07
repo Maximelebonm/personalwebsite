@@ -9,11 +9,17 @@ const ContactScreen=()=>{
 
                 
             </div>
-            <div class="text-white text-center p-2 m-2 rounded-lg">
-            Par linkedin :
-            <a href="https://www.linkedin.com/in/maxime-lebon-929581234/" target="_blank"> En cliquant ici</a>
+                <div class="text-white text-center p-2 m-2 rounded-lg flex flex-col items-center">
+                    <div>
+                        Par linkedin :
+                    </div>
+                    <a href="https://www.linkedin.com/in/maxime-lebon-929581234/" target="_blank" rel="noreferrer">
+                        <div className="bg-sky-500 hover:bg-sky-700 w-40 h-8 rounded-lg hover:duration-300 align-middle p-1">
+                            En cliquant ici
+                        </div>
+                    </a>
+                </div>
             </div>
-        </div>
     )
 }
 export default ContactScreen

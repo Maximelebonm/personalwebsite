@@ -15,7 +15,7 @@ class Card extends Component {
                     <div class=" pb-3 pt-0 flex flex-col justify-start">
                         <h5 class="text-gray-100 text-xl font-medium mb-2 text-center">{title}</h5>
                         <p class="text-gray-100 text-base mb-2 text-center">{subtitle}</p>
-                        <p class="text-gray-100 text-sm text-center">{desc}</p>
+                        <p class="text-gray-100 text-sm text-center p-2">{desc}</p>
                         <a href={lien} target="blank" class={cssLien}>{textLien}</a>
                     </div>
                 </div>
