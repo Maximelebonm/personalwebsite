@@ -1,3 +1,23 @@
-nav.scrolled{      
+/* nav.scrolled{      
         opacity : 0;
-      }
+      } */
+.IconContainer{
+  padding : 0.5rem;
+  height : 4rem;
+}
+
+.IconHeader{
+  height : 3rem;
+  width : 3rem;
+  padding : 0.25rem;
+  color:#f8fafc;
+  border-width : 2px;
+  border-radius: 50%;
+  border-color: #f8fafc;
+}
+
+.IconHeader:hover{
+  color:#0f172a;
+  border-color: #0f172a;
+  transition-duration: 300ms;
+}

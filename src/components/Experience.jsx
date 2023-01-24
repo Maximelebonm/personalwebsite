@@ -1,16 +1,23 @@
 import { Component } from "react"
 
-class Experience extends Component{
-    render(){
-        const {Date, Title, desc, src} = this.props
-        return(
-            <div class="ml-2 mb-5 text-white w-80 grid justify-items-center rounded-lg align-top shadow-2xl bg-sky-600/[.1]">
-                <div class="text-gray-100 text-center bg-sky-500 h-10 p-2 font-bold">{Date}</div>
-                <div class="font-bold  text-center text-gray-100 text-base m-2">{Title}</div>
-                <div class="text-center text-gray-100 text-sm m-2">{desc}</div>
+const Experience = (props) => {
+
+        const { Date, Title, desc, src, className } = props
+        return (
+            <div className={className}>
+            <div className="ExperienceSlide flex">
+                <div className="w-1 bg-slate-50"></div>
+                <div class="mb-5 w-full  text-white rounded-lg align-top shadow-2xl bg-pink-800/[.1]">
+                    <div>
+                        <div class="text-slate-50 w-full text-start bg-pink-800 h-10 p-2 font-bold">{Date}</div>
+                        <div class="font-bold text-start text-slate-50  m-2">{Title}</div>
+                        <div class="text-start text-slate-50 m-2">{desc}</div>
+                    </div>
+                </div>
+            </div>
             </div>
         )
 
-    }
+  
 }
 export default Experience
