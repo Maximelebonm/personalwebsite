@@ -12,6 +12,7 @@ import PresentationScreen from './screens/PresentationScreen';
 import DetailBeMusicianScreen from './screens/DetailBemusicianScreen';
 import DetailDouCrochetScreen from './screens/DetailDoucrochet';
 import DetailAlloMovie from './screens/DetailAlloMovie';
+import ScrollToTop from './screens/scrollToTop';
 
 const App = () => {
  
@@ -21,6 +22,7 @@ const App = () => {
     </div>
 
       <BrowserRouter>
+      <ScrollToTop/>
         <Routes>        
           <Route path="/" element={<BaseScreen />}>
             <Route index element={<HomeScreen />} />

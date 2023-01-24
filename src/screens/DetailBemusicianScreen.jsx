@@ -7,14 +7,19 @@ const DetailBeMusicianScreen = () => {
                     <img className="w-48" src={process.env.PUBLIC_URL + '/img/bemusician.png'} />
                     </div>
                     <div>
-                        <div className="mt-8 font-bold text-lg p-2">Raison du projet Bemusian </div>
+                        <div className="mt-8 font-bold text-lg p-2 mt-8">Raison du projet Bemusian </div>
                         <div className="p-2">BeMusician est à la base un projet "fil rouge", il nous sert à montrer nos capacités lors de l'entretiens final pour obtenir le diplome de concepteur d'application.
                         par la suite j'ai décidé d'aller plus loin et de le publier pour continuer à monter en compétence et notament découvrir la mise en ligne d'API.  </div>
+                    </div>
+                    <div>
+                    <div className="mt-8 font-bold text-lg p-2 mt-8 ">Particularités du projet </div>
+                    <div className="p-2">ce projet dou'crochet fut pour l'occasion de travailler en équipe pour la première fois, nous avons travaillé avec la méthode Scrum (agile), 
+                    donc daily tout les jours, review toutes les deux semaines, système de carte pour definir les taches à faire et la mise en commun avec git et gitHub. </div>
                     </div>
                     <div className="font-bold text-lg"> Technologies Utilisées :</div>
                     <div className="flex flex-col lg:flex-row mt-2">
                         <div className="p-2">
-                            <div className="font-bold text-base">Front-End</div>
+                            <div className="font-bold text-base mt-4">Front-End</div>
                             <div className="text-start">
                                 <ul>
                                     <li>- Utilisation du langage Javascript et du framework ReactJS</li>
@@ -46,7 +51,7 @@ const DetailBeMusicianScreen = () => {
                             </div>
                         </div>
                     </div>
-                        <button className="font-bold hover:text-slate-900 hover:bg-pink-800 duration-200 bg-slate-900 w-40 h-12 rounded-full border-slate-700"><a href="https://bemusician.fr">Aller sur le site</a></button>
+                    <a className="w-full h-full" href="https://bemusician.fr"><button className="font-bold hover:text-slate-900 hover:bg-pink-800 duration-200 bg-slate-900 w-40 h-12 rounded-full border-slate-700">Aller sur le site</button></a>
                 </div>
             </div>
         </>

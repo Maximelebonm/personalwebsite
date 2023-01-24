@@ -13,7 +13,7 @@ const ContactScreen=()=>{
                     <div>
                         Par linkedin :
                     </div>
-                    <a href="https://www.linkedin.com/in/maxime-lebon-929581234/" target="_blank" rel="noreferrer">
+                    <a className="w-full h-full" href="https://www.linkedin.com/in/maxime-lebon-929581234/" target="_blank" rel="noreferrer">
                         <button className="bg-pink-800 hover:bg-slate-900 w-40 h-12 rounded-full hover:duration-300 align-middle p-1">
                             En cliquant ici
                         </button>
