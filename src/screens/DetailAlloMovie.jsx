@@ -14,7 +14,7 @@ const DetailAlloMovie =()=> {
                 <div className="font-bold text-lg"> Technologies Utilisées :</div>
                 <div className="flex flex-col lg:flex-row mt-2">
                     <div className="p-2">
-                        <div className="font-bold text-base">Front-End</div>
+                        <div className="font-bold">Front-End</div>
                         <div className="text-start">
                             <ul>
                                 <li>- Utilisation du langage Javascript et du framework ReactJS</li>
@@ -28,17 +28,6 @@ const DetailAlloMovie =()=> {
                     <div className="p-2">
                         <div className="font-bold text-base">Back-End</div>
                         <div className="text-start">
-                            <ul>
-                                <li>- Utilisation du langage Javascript et du frameWork NodeJS</li>
-                                <li>- Mise en place de models Sequilize</li>
-                                <li>- Mise en place de route Express</li>
-                                <li>- Mise en place de controllers</li>
-                                <li>- Gestion des CRUD dans des services avec Sequelize</li>
-                                <li>- Requêtes sequilize et MySqL</li>
-                                <li>- Mise en ligne avec Heroku</li>
-                                <li>- Gestion des variables d'environements</li>
-                                <li>- Sauvegardes avec gitHub (Pour la sécurité le repositorie est privé)</li>
-                            </ul>
                         </div>
                     </div>
                 </div>
