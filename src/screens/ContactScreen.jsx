@@ -11,7 +11,7 @@ const ContactScreen=()=>{
         e.target.textContent = "copié"
     }
     return(
-        <div className="pt-20">
+        <div className="pt-16">
             <div className="text-white text-center p-2 m-2 rounded-lg">
             <div className="TitleContact text-2xl font-bold">Contact</div>
             <Undertitle className="barexperience"/>

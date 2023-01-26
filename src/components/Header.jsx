@@ -30,7 +30,7 @@ const Header = () => {
             <nav className="fixed top-0 z-50 text-black h-16 w-screen backdrop-blur-3xl bg-sky-600/[.1]" id="menu">
 
                 <a href="./pdf/CvMaximeLebon .pdf" className="fixed" target="_blank">
-                    <button className="fixed flex flex-col items-center right-0 font-bold text-slate-50 bg-pink-800 hover:bg-slate-900 rounded-full mr-1 h-12 w-12 mt-9 p-1">
+                    <button className="fixed flex flex-col items-center right-0 font-bold text-slate-50 bg-pink-800 hover:bg-slate-900 rounded-full mr-4 h-12 w-12 mt-12 p-1">
                         <div>
                             CV
                         </div>
@@ -52,16 +52,16 @@ const Header = () => {
     }
     else {
         return (
-            <nav className="fixed top-0 z-50 text-white w-screen h-12 backdrop-blur-3xl bg-sky-600/[.1]" id="menu">
-                <div className="text-white text-sm justify-center w-full flex inline " >
+            <nav className="fixed top-0 z-50 text-white w-screen h-16 backdrop-blur-3xl bg-sky-600/[.1]" id="menu">
+                <div className="text-white text justify-center w-full flex inline " >
                 <a href="./pdf/CvMaximeLebon .pdf" className="fixed" target="_blank">
-                    <button className="fixed mt-6 right-0 mr-2 text-lg text-slate-50 bg-pink-800 hover:bg-slate-900 rounded-full h-12 ml-2 mt-2 px-4">Telecharger le CV</button>
+                    <button className="fixed right-0 mr-2 text-lg text-slate-50 bg-pink-800 hover:bg-slate-900 rounded-full h-12 ml-2 mt-12 mr-4 px-4">Telecharger le CV</button>
                     </a>
-                    <Link to="/"><div className="hover:bg-pink-800 p-4 h-12 align-middle text-center duration-500 ease-in-out" >Acceuil</div></Link>
-                    <Link to="/projet"><div className="hover:bg-pink-800 p-4 h-12 align-middle text-center duration-500 ease-in-out">Portfolio</div></Link>
-                    <Link to="/techno"><div className="hover:bg-pink-800 p-4 h-12 align-middle text-center duration-500 ease-in-out" >Logiciels et technologies</div></Link>
-                    <Link to="/experience"><div className="hover:bg-pink-800 p-4  h-12 align-middle text-center duration-500 ease-in-out">Experiences professionnelles</div></Link>
-                    <Link to="/contact"><div className="hover:bg-pink-800 p-4 h-12 align-middle text-center duration-500 ease-in-out">Me contacter</div></Link>
+                    <Link to="/"><div className="hover:bg-pink-800 py-5 px-4 h-16 align-middle text-center duration-500 ease-in-out" >Acceuil</div></Link>
+                    <Link to="/projet"><div className="hover:bg-pink-800 py-5 px-4 h-16 align-middle text-center duration-500 ease-in-out">Portfolio</div></Link>
+                    <Link to="/techno"><div className="hover:bg-pink-800 py-5 px-4 h-16 align-middle text-center duration-500 ease-in-out" >Logiciels et technologies</div></Link>
+                    <Link to="/experience"><div className="hover:bg-pink-800 py-5 px-4 h-16 align-middle text-center duration-500 ease-in-out">Experiences professionnelles</div></Link>
+                    <Link to="/contact"><div className="hover:bg-pink-800 py-5 px-4 h-16 align-middle text-center duration-500 ease-in-out">Me contacter</div></Link>
                 </div>
             </nav>
         )

@@ -2,7 +2,7 @@ const DetailAlloMovie =()=> {
     return (
         <>
         <div>
-            <div className="pt-2 text-slate-50 flex flex-1 flex-col items-center text-center pb-32">
+            <div className="pt-2 text-slate-50 flex flex-1 flex-col items-center text-center pt-16 pb-16">
                 <div>
                 <img className="w-48" src={process.env.PUBLIC_URL + '/img/themovieDb.jpeg'} />
                 </div>

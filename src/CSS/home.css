@@ -106,11 +106,6 @@
     animation-delay: 0.5s;
     animation-duration : 7000ms;
 }
-/* .circle:hover{
-
-    animation-duration: 1000ms;
-    background-color : rgb(142, 180, 131)
-} */
 
 @keyframes lumiere {
     0%{
