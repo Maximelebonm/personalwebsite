@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import './CSS/loisir.css'
+import './CSS/loisir.css';
+import './CSS/techno.css';
+import './CSS/experience.css'
 import TechnoScreen from './screens/TechnoScreen';
 import ContactScreen from './screens/ContactScreen';
 import BaseScreen from './screens/BaseScreen';

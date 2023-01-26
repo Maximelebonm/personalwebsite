@@ -18,7 +18,7 @@ const HomeScreen = () => {
                         <div className="homeDivTwo flex items-center flex-col lg:flex-row">
                             <div className="MyName p-2 align-center flex flex-col items-center">
                                 <div className="font-bold text-3xl">Maxime Lebon</div>
-                                <div className="font-bold text-xl"> Concepteur Developpeur d'Application</div>
+                                <div className="font-bold text-xl"> Concepteur Développeur d'Application</div>
                                 {/* <Link to="/presentation"> <CgChevronDoubleRightO className="w-20 h-20 mt-6 text-slate-500 hover:text-slate-200 duration-200" /></Link> */}
                             </div>
                             <Link to="/presentation"><img class="ImageHome w-32 h-32" src={process.env.PUBLIC_URL + '/img/max.jpeg'} /></Link>
@@ -26,7 +26,7 @@ const HomeScreen = () => {
                     </div>
                     <div className="">
                         <div className="hello">
-                            Bonjour, moi c'est Maxime, développeur javascript fullStack, mes frameworks de prédilections sont React JS pour le front et Node Js pour le back.
+                            Bonjour, moi c'est Maxime, développeur javascript FullStack, mes frameworks de prédilections sont React JS pour le front-end et Node Js pour le back-end.
                         </div>
                     </div>
                 </div>

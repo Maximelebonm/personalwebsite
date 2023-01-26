@@ -1,0 +1,65 @@
+.TitleTech{
+    -webkit-animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;  
+  }
+.cardTech{
+    opacity : 0;
+    -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.5s both;
+	        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.5s both;
+}
+.cardTech1{
+    opacity : 0;
+    -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.8s both;
+	        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.8s both;
+}
+.cardTech2{
+    opacity : 0;
+    -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.1s both;
+	        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.1s both;
+}
+.cardTech3{
+  opacity : 0;
+  -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.4s both;
+        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.4s both;
+}
+.TitleTech2{
+    -webkit-animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;  
+      animation-delay: 2.7s;
+  }
+.cardTech4{
+    opacity : 0;
+  -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
+        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s both;
+}
+.cardTech5{
+    opacity : 0;
+  -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4.3s both;
+        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4.3s both;
+}
+.cardTech6{
+    opacity : 0;
+  -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4.6s both;
+        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4.6s both;
+}
+
+.TitleTech3{
+    -webkit-animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;  
+      animation-delay: 3.9s;
+  }
+.cardTech7{
+    opacity : 0;
+  -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 6s both;
+        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 6s both;
+}
+.cardTech8{
+    opacity : 0;
+  -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 6.3s both;
+        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 6.3s both;
+}
+.cardTech9{
+    opacity : 0;
+  -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 6.6s both;
+        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 6.6s both;
+}

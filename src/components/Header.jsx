@@ -27,7 +27,7 @@ const Header = () => {
         return {innerWidth, innerHeight};
       }
     
-if(windowSize.innerWidth <= 1024){
+if(windowSize.innerWidth < 1024){
     return (
         <nav class="fixed bottom-0 lg:top-0 z-50 text-black h-16 w-screen backdrop-blur-3xl bg-sky-600/[.1]" id="menu">
             <div class="text-white text-sm justify-center h-12 w-full flex inline" >
@@ -45,7 +45,7 @@ else{
         <nav class="fixed top-0 z-50 text-white w-screen h-12 backdrop-blur-3xl bg-sky-600/[.1]" id="menu">
             <div class="text-white text-sm justify-center w-full flex inline" >
                 <Link to="/"><div class="hover:bg-pink-800 p-4 h-12 align-middle text-center duration-500 ease-in-out" >Acceuil</div></Link>
-                <Link to="/projet"><div class="hover:bg-pink-800 p-4 h-12 align-middle text-center duration-500 ease-in-out">Loisirs et projets</div></Link>
+                <Link to="/projet"><div class="hover:bg-pink-800 p-4 h-12 align-middle text-center duration-500 ease-in-out">Projets</div></Link>
                 <Link to="/techno"><div class="hover:bg-pink-800 p-4 h-12 align-middle text-center duration-500 ease-in-out" >Logiciels et technologies</div></Link>
                 <Link to="/experience"><div class="hover:bg-pink-800 p-4  h-12 align-middle text-center duration-500 ease-in-out">Experiences professionnelles</div></Link>
                 <Link to="/contact"><div class="hover:bg-pink-800 p-4 h-12 align-middle text-center duration-500 ease-in-out">Me contacter</div></Link>

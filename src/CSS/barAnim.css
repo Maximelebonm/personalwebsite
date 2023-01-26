@@ -10,10 +10,25 @@
     display : flex;
 }
 .barexperience{
-    animation : lighteffect linear 10000ms;
-    animation-iteration-count: infinite;
     width : 50px;
     height :1px;
+    animation : lighteffect linear 10000ms;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+.barexperience2{
+    width : 50px;
+    height :1px;
+    animation : lighteffect linear 10000ms;
+    animation-iteration-count: infinite;
+    animation-delay: 4.5s;
+}
+.barexperience3{
+    width : 50px;
+    height :1px;
+    animation : lighteffect linear 10000ms;
+    animation-iteration-count: infinite;
+    animation-delay: 6s;
 }
 
 @keyframes lighteffect {

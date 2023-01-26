@@ -1,22 +1,30 @@
+.Titleloisir{
+  -webkit-animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;  
+}
 .cardLoisir{
     opacity : 0;
-    -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.5s both;
+	        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.5s both;
 }
 .cardLoisir2{
     opacity : 0;
-    -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
-	        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+    -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.8s both;
+	        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.8s both;
 }
 .cardLoisir3{
     opacity : 0;
-    -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
-	        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+    -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.1s both;
+	        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.1s both;
+}
+.Titleloisir2{
+  -webkit-animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.4s both;
+    animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2.4s both;  
 }
 .cardLoisir4{
   opacity : 0;
-  -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.5s both;
-        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.6s both;
+  -webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.5s both;
+        animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.5s both;
 }
 
 @keyframes fade-in {
