@@ -3,8 +3,12 @@ const { Component } = require("react");
 require('../CSS/Card.css');
 
 class CardHobbie extends Component {
-
+    
     render() {
+        const clique = new Audio('../sound/cliqueApple.wav');
+        function play() {
+            clique.play()
+        }
         const { title, subtitle, desc, src, id, lien, textLien, cssLien, className } = this.props
         return (
             <div className={className}>
@@ -19,7 +23,7 @@ class CardHobbie extends Component {
                             <p className="text-gray-100 text-center p-2">{desc}</p>
                         </div>
                     </div>
-                    <a href={lien}><div className="flex justify-center lg:absolute lg:bottom-0 lg:w-full p-2 text-white font-bold bg-pink-800 hover:bg-slate-900 transition duration-300 content-center"><div className="my-auto">{textLien}</div><div><BsArrowRight className="h-full w-full ml-2 my-auto"/></div></div></a>
+                    <a href={lien}><div className="flex justify-center lg:absolute lg:bottom-0 lg:w-full p-2 text-white font-bold bg-pink-800 hover:bg-slate-900 transition duration-300 content-center" onClick={play}><div className="my-auto">{textLien}</div><div><BsArrowRight className="h-full w-full ml-2 my-auto"/></div></div></a>
                 </div>
             </div>
         )

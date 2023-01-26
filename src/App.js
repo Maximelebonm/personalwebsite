@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import './CSS/loisir.css';
 import './CSS/techno.css';
-import './CSS/experience.css'
+import './CSS/experience.css';
+import './CSS/contact.css';
 import TechnoScreen from './screens/TechnoScreen';
 import ContactScreen from './screens/ContactScreen';
 import BaseScreen from './screens/BaseScreen';
@@ -28,7 +29,6 @@ const App = () => {
         <Routes>        
           <Route path="/" element={<BaseScreen />}>
             <Route index element={<HomeScreen />} />
-            <Route path="/presentation" element={<PresentationScreen/>}/>
             <Route path="/techno" element={<TechnoScreen/>}/>
             <Route path="/experience" element={<ExperienceScreen/>}/>
             <Route path="/projet" element={<LoisirScreen/>}/>

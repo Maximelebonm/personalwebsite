@@ -1,16 +1,30 @@
-import { Link } from "react-router-dom"
+import { BsFillCursorFill } from "react-icons/bs";
+import Undertitle from "../components/undertitle";
 const ContactScreen=()=>{
+    const clique = new Audio('../sound/cliqueApple.wav');
 
+    const copied = (e)=>{
+        console.log(e)
+        navigator.clipboard.writeText(e.target.textContent)
+        e.target.className = "text-xl bg-green-800 rounded-full h-12 w-80"
+        clique.play()
+        e.target.textContent = "copié"
+    }
     return(
-        <div class="pt-2/5">
-            <div class="text-white text-center p-2 m-2 rounded-lg">
-            Par mail :
-            lebon.maxime.m@gmail.com
+        <div className="pt-20">
+            <div className="text-white text-center p-2 m-2 rounded-lg">
+            <div className="TitleContact text-2xl font-bold">Contact</div>
+            <Undertitle className="barexperience"/>
+            <div className="contactCard">
+            <div className="text-xl font-bold mt-8">Par mail : </div>
+            <button className="text-xl bg-pink-800 hover:bg-slate-900 rounded-full h-12 w-80" onClick={copied}>lebon.maxime.m@gmail.com<BsFillCursorFill className="absolute"/></button>
+
+            </div>
 
                 
             </div>
-                <div class="text-white text-center p-2 m-2 rounded-lg flex flex-col items-center">
-                    <div>
+                <div className="contactCard2 text-white text-center mt-8 rounded-lg flex flex-col items-center">
+                    <div className="text-xl">
                         Par linkedin :
                     </div>
                     <a className="w-full h-full" href="https://www.linkedin.com/in/maxime-lebon-929581234/" target="_blank" rel="noreferrer">

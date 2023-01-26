@@ -3,31 +3,19 @@ import Undertitle from "../components/undertitle";
 
 
 const ExperienceScreen = () => {
-   
-    const cardSelect = document.querySelector('.ExperienceSlide')
-    window.addEventListener('scroll', ()=> {
-
-       
-        const {scrollTop, clientHeight} = document.documentElement;
-
-        const topElementToTopWindow = cardSelect.getBoundingClientRect().top;
-        if(scrollTop> (scrollTop + topElementToTopWindow).toFixed()){
-            cardSelect.classList.add('active')
-        }
-    })
     
     return (
         <div>
-        <div className="flex flex-col sm:w-2/3 lg:w-1/2 justify-center pb-20 lg:pb-16 mx-2 sm:mx-auto">
+        <div className="flex flex-col sm:w-2/3 lg:w-1/2 justify-center pb-20 pt-20 lg:pb-16 mx-2 sm:mx-auto">
             <div className="TitleExp text-white text-2xl m-auto w-96 font-bold text-center"><h2>Expériences professionnelles dans le développement</h2></div>
-            <Undertitle />
-            <div class="flex flex-col justify-center mt-4">
+            <Undertitle className="barexperience rounded-lg"/>
+            <div className="flex flex-col justify-center mt-4">
                 <Experience className='experienceSlide' Date="Septembre 2022 - janvier 2023" Title="Incubateur chez M2I formation / AFPA" desc="Intégration d'une équipe de travail sur un projet e-commerce, mise en place de la méthode agile, conception (MCD,MLD,UseCase,Maquettage...), développement du site internet deskstop front-end avec ReactJS, développement du back-end avec NodeJS." />
                 <Experience className='experienceSlide1' Date="Juin-Aout 2022" Title="Stage Tales and Keys (3mois)" desc="Conception d'application (MCD, UserCase, Maquettage, diagramme de séquence),
                 développement sur flutter, utilisation de FlutterFlow"/>
             </div>
-            <div className="experienceSlide2 text-white text-2xl m-auto w-96 font-bold text-center"><h2>Expériences professionnelles avant ma reconversion</h2></div>
-            <Undertitle />
+            <div className="TitleExp2 text-white text-2xl m-auto w-96 font-bold text-center"><h2>Expériences professionnelles avant ma reconversion</h2></div>
+            <Undertitle className="undertitleExp1 rounded-lg"/>
             <div className="flex flex-col justify-center mt-4">
                 <Experience 
                     className='experienceSlide3' 
