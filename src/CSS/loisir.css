@@ -40,6 +40,39 @@
   -webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.8s both;
         animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 2.8s both;
 }
+.buttonEffect{
+  background:
+  linear-gradient(-45deg, #000  40%, #fff 0 0%, #000  0) right/0% 0% no-repeat,
+  linear-gradient(-45deg, #0000 0%, #9d174d 0 60%, rgb(15, 23, 42) 0) right/300% 100% no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+}
+.buttonEffect:hover{
+  background-position: left;
+  transition: 0.8s
+}
+.cardEffect{
+  background:
+    linear-gradient(-45deg, #000  40%, #fff 0 60%, #000  0) right/350% 100% no-repeat,
+    linear-gradient(-45deg,rgba(255, 255, 255,0) 40%, rgba(255, 255, 255, 0.05) 45%, rgba(255, 255, 255, 0.05) 0 50%, rgba(255, 255, 255, 0) 60%,rgba(255, 255, 255, 0) 0) right/350% 100% no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  animation : backgroundMove 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation-duration: 20s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes backgroundMove{
+  0%{  
+    background-position-x: right;
+  }
+  25%{
+    background-position-x: left;
+  }
+  100%{
+    background-position-x: left;
+  }
+}
 
 @keyframes fade-in {
     0% {

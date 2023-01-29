@@ -36,8 +36,8 @@ const App = () => {
             <Route path="/projet/doucrochet" element={<DetailDouCrochetScreen/>}/>
             <Route path="/projet/allomovie" element={<DetailAlloMovie/>}/>
             <Route path="/contact" element={<ContactScreen/>}/>
+            <Route path="/*" element={<HomeScreen />} />
           </Route>
-          <Route path="*" element={<ContactScreen />} />
         </Routes>      
       </BrowserRouter>
     </div>

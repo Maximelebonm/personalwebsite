@@ -55,7 +55,7 @@ const Header = () => {
             <nav className="fixed top-0 z-50 text-white w-screen h-16 backdrop-blur-3xl bg-sky-600/[.1]" id="menu">
                 <div className="text-white text justify-center w-full flex inline " >
                 <a href="./pdf/CvMaximeLebon .pdf" className="fixed" target="_blank">
-                    <button className="fixed right-0 mr-2 text-lg text-slate-50 bg-pink-800 hover:bg-slate-900 rounded-full h-12 ml-2 mt-12 mr-4 px-4">Telecharger le CV</button>
+                    <button className="buttonEffect fixed right-0 mr-2 text-lg text-slate-50 bg-pink-800 hover:bg-slate-900 rounded-full h-12 ml-2 mt-12 mr-4 px-4">Telecharger le CV</button>
                     </a>
                     <Link to="/"><div className="hover:bg-pink-800 py-5 px-4 h-16 align-middle text-center duration-500 ease-in-out" >Acceuil</div></Link>
                     <Link to="/projet"><div className="hover:bg-pink-800 py-5 px-4 h-16 align-middle text-center duration-500 ease-in-out">Portfolio</div></Link>

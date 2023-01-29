@@ -2,17 +2,17 @@ const DetailDouCrochetScreen = () => {
     return (
             <>
         <div>
-            <div className="pt-2 text-slate-50 flex flex-1 flex-col items-center text-center pt-16 pb-16">
+            <div className=" text-slate-50 flex flex-1 flex-col items-center text-center pt-20 pb-16">
                 <div>
                 <img className="w-48" src={process.env.PUBLIC_URL + '/img/doucrochet.png'} />
                 </div>
                 <div>
-                    <div className="mt-8 font-bold text-lg p-2 mt-8 ">Raison du projet Dou'Crochet </div>
+                    <div className=" font-bold text-lg p-2 mt-8 ">Raison du projet Dou'Crochet </div>
                     <div className="p-2">Après le projet de montée en compétences sur Allo Movie, l'incubateur met en place une équipe pour travailler sur un projet fictif d'E-commerce. Lors de la réunion pour
                choisir le thème de ce projet, j'ai proposé la vente de doudou fait main confectionné par un de mes proches, l'équipe a accepté, nous avont donc travailé sur dou'crochet. </div>
                 </div>
                 <div>
-                    <div className="mt-8 font-bold text-lg p-2 mt-8 ">Particularités du projet </div>
+                    <div className=" font-bold text-lg p-2 mt-8 ">Particularités du projet </div>
                     <div className="p-2">Ce projet fût pour moi l'occasion de travailler en équipe pour la première fois, nous avons travaillé avec la méthode agile (Scrum),
                     c'est à dire des réunion appelé "daily" tout les jours en présentielle ou distancielle, et une plus grosse réunion appelé "review" toutes les deux semaines pour finir ce que l'on appel un "sprint" ou une étape de développement, 
                     système de "poker planning" pour prévoir les tâches à faire ainsi que leurs temps, et la mise en commun avec git et gitHub.

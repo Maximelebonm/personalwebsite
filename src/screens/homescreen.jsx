@@ -30,20 +30,20 @@ const HomeScreen = () => {
                     </div>
                     <div className="">
                         <div className="hello">
-                            Bonjour, moi c'est Maxime, développeur javascript FullStack, mes frameworks de prédilections sont React JS pour le front-end et Node Js pour le back-end.
+                            Bonjour, moi c'est Maxime, développeur javascript FullStack, j'utilise la bibliothèque React JS pour le front-end et l'environement Node JS pour le back-end.
                         </div>
-                        <div className="homeRecruterCard mt-4 p-8 m-4 rounded-lg shadow-2xl lg:w-1/2 lg:mx-auto bg-pink-800/[.3]">
+                        <div className="homeRecruterCard mt-4 p-8 m-4 rounded-lg shadow-2xl md:w-1/2 md:mx-auto bg-pink-800/[.3]">
                         <div className="text-2xl font-bold">Recruteur et pas le temps ? </div>
                         <a href="./pdf/CvMaximeLebon .pdf" target="_blank">
-                            <button className="bg-pink-800 hover:bg-slate-900 w-40 h-12 rounded-full hover:duration-300 align-middle py-auto px-2 mx-1 mt-4" onClick={AfficherPdf}>
+                            <button className="buttonEffect bg-pink-800 hover:bg-slate-900 w-40 h-12 rounded-full hover:duration-300 align-middle py-auto px-2 mx-1 mt-4" onClick={AfficherPdf}>
                                 Télécharger mon CV
                             </button>
                         </a>
                           
                         <div>
                         </div>
-                        <div className="mt-4 font-bold"> Copier l'adresse e-mail pour me contacter:</div>
-                            <button className="text-lg bg-pink-800 hover:bg-slate-900 rounded-full h-12 w-full sm:w-80 mt-2" onClick={copied}>lebon.maxime.m@gmail.com<BsFillCursorFill className="absolute"/></button>
+                        <div className="mt-4 font-bold"> Copier mon adresse e-mail pour me contacter:</div>
+                            <button className="buttonEffect text-lg bg-pink-800 hover:bg-slate-900 rounded-full h-12 w-80 mt-2" onClick={copied}>lebon.maxime.m@gmail.com<BsFillCursorFill className="absolute"/></button>
                         </div>
 
                     </div>

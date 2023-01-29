@@ -14,9 +14,9 @@ const BaseScreen =()=>{
     return(
         <>
             <Starbackground/>
-            <main className="z-0 pt-4 lg:pt-16">
-                <Outlet />
+            <main className="z-0 pt-4">
                 <Header/>
+                <Outlet />
             </main>   
         </>
     )

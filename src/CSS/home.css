@@ -54,10 +54,8 @@
     -webkit-animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 	        animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 }
-.homeRecruterCard{
-    -webkit-animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.4s both;
-	        animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.4s both;
-}
+
+  
 @keyframes fade-in {
     0% {
       opacity: 0;
@@ -122,6 +120,10 @@
         transform: translate(500px, 1000px);
     }
 }
+.homeRecruterCard{
+    -webkit-animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.4s both;
+            animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.4s both;
+}
 
 @media (min-width:1024px) {
     .hello{
@@ -132,5 +134,20 @@
     }
     .HomeContent{
         padding-top : 10%
+    }
+    .homeRecruterCard{
+        clip-path: polygon(var(--d) 3px,var(--d) 0,100% 0,100% 100%,var(--d) 100%,var(--d) calc(100% - 3px));
+        transform: perspective(1000px) rotateY(0deg) rotateX(0deg);
+        transition: 0.4s,color 0.4s 0.4s,background-color 0.4s 0s;
+     
+     }
+    .homeRecruterCard:hover{ 
+        background-color: rgb(15, 23, 42, 0.5);
+        color: #fff;
+        clip-path: polygon(0px 3px,var(--d) 0,100% 0,100% 100%,var(--d) 100%,0  calc(100% - 3px));
+        transform: perspective(1000px) rotateY(5deg) rotateX(5deg);
+        transition: 0,clip-path 0.4s 0.4s,transform 0.4s 0.4s;
+        background-position: left;
+    
     }
 }

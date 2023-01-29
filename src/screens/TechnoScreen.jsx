@@ -17,12 +17,12 @@ const TechnoScreen=()=> {
                         </div>
                     </div>
                     <div>
-                        <div className="TitleTech2 text-white text-center mt-2 text-2xl font-bold mt-4"><h2>FrameWorks et Bibliothèques</h2></div>
+                        <div className="TitleTech2 text-white text-center mt-2 text-2xl font-bold"><h2>FrameWorks et Bibliothèques</h2></div>
                         <Undertitle className="undertitleTech2"/>
                         <div className="grid lg:grid-cols-3 sm:grid-cols-2 justify-items-center">
-                            <CardTechno className="cardTech4" title="ReactJS" subtitle="Framework Javascript déployé par facebook" desc="Utilisation de React JS pour divers projets SPA (Single Page Application), utilisation des Hooks comme le useState, le useEffect, le useNavigate de React router Dom, Yup pour les formulaires..." src={process.env.PUBLIC_URL + '/iconSvg/reactsansnom.svg'} id="reactjs"/>
+                            <CardTechno className="cardTech4" title="ReactJS" subtitle="Bibliothèque Javascript déployé par facebook" desc="Utilisation de React JS pour divers projets SPA (Single Page Application), utilisation des Hooks comme le useState, le useEffect, le useNavigate de React router Dom, Yup pour les formulaires..." src={process.env.PUBLIC_URL + '/iconSvg/reactsansnom.svg'} id="reactjs"/>
                             <CardTechno className="cardTech5" title="TailWind" subtitle="Framework CSS" desc="Pour plus d'efficacité et un code moins lourd, la bibliothèque Tailwind me permet de développer efficacement divers sites webs et applications." src={process.env.PUBLIC_URL + '/iconSvg/tailwind-css-2.svg'} />
-                            <CardTechno className="cardTech6" title="NodeJS" subtitle="FrameWork Javascript" desc="Utilisation de NodeJS pour développer divers Api REST, mise en place de routes sécurisées, de models, de services, de controllers, de fichiers de configuration pour la sécurité, de variables d'environnement, de scripts de modification de base de données, requête vers une base de données MySql ou NoSql avec MongoDB." src={process.env.PUBLIC_URL + '/iconSvg/nodejs.svg'}/>
+                            <CardTechno className="cardTech6" title="NodeJS" subtitle="Environement Javascript" desc="Utilisation de NodeJS pour développer divers Api REST, mise en place de routes sécurisées, de models, de services, de controllers, de fichiers de configuration pour la sécurité, de variables d'environnement, de scripts de modification de base de données, requête vers une base de données MySql ou NoSql avec MongoDB." src={process.env.PUBLIC_URL + '/iconSvg/nodejs.svg'}/>
                         </div>
                     </div>
                     <div>

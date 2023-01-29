@@ -2,7 +2,7 @@ const DetailAlloMovie =()=> {
     return (
         <>
         <div>
-            <div className="pt-2 text-slate-50 flex flex-1 flex-col items-center text-center pt-16 pb-16">
+            <div className=" text-slate-50 flex flex-1 flex-col items-center text-center pt-20 pb-16">
                 <div>
                 <img className="w-48" src={process.env.PUBLIC_URL + '/img/themovieDb.jpeg'} />
                 </div>
@@ -12,7 +12,7 @@ const DetailAlloMovie =()=> {
                     j'ai choisis AlloMovie qui utilise l'api the Movie DB, qui sert à créer une single page application avec du contenu déjà prêt.</div>
                 </div>
                 <div>
-                    <div className="mt-8 font-bold text-lg p-2 mt-8 ">Particularités du projet </div>
+                    <div className="font-bold text-lg p-2 mt-8 ">Particularités du projet </div>
                     <div className="p-2">C'est avec ce projet, que j'ai découvert Tailwind CSS permettant de mettre en place du css directement dans les balises Html,
                     Il ma aussi permis de découvrir axios, d'utiliser React en fonctionnel et non plus avec le système de classe mais aussi d'organisé autrement mon travail.
                     </div>
