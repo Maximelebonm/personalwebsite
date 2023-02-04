@@ -17,7 +17,7 @@ const HomeScreen = () => {
 
     return (
         <>
-                <div className="text-white text-center flex flex-1 flex-col justify-center pt-12">
+                <div className="text-white text-center flex flex-1 flex-col justify-center pt-20">
                     <div className="HomeDivOne">
                         <div className="homeDivTwo flex items-center flex-col lg:flex-row duration-300">
                             <div className="MyName p-2 align-center flex flex-col items-center">
@@ -25,7 +25,7 @@ const HomeScreen = () => {
                                 <div className="font-bold text-xl"> Concepteur Développeur d'Application</div>
                                 {/* <Link to="/presentation"> <CgChevronDoubleRightO className="w-20 h-20 mt-6 text-slate-500 hover:text-slate-200 duration-200" /></Link> */}
                             </div>
-                            <img className="ImageHome w-32 h-32" src={process.env.PUBLIC_URL + '/img/max.jpeg'} />
+                            <img className="ImageHome w-32 h-32" alt="Profil" src={process.env.PUBLIC_URL + '/img/max.jpeg'} />
                         </div>
                     </div>
                     <div className="">
