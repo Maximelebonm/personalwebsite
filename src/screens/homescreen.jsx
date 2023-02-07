@@ -1,6 +1,6 @@
 import { BsFillCursorFill } from "react-icons/bs";
 
-const HomeScreen = () => {
+const HomeScreen = (props) => {
     const clique = new Audio('../sound/cliqueApple.wav');
 
     const copied = (e)=>{

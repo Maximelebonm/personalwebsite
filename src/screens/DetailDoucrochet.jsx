@@ -1,4 +1,20 @@
-const DetailDouCrochetScreen = () => {
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+
+import "../CSS/swiper.css";
+
+// import required modules
+import { EffectCoverflow, Pagination } from "swiper";
+
+  
+  const DetailDouCrochetScreen = () => {
+    // const swiper = new Swiper(...);
     return (
             <>
         <div>
@@ -6,6 +22,41 @@ const DetailDouCrochetScreen = () => {
                 <div>
                 <img className="w-48" src={process.env.PUBLIC_URL + '/img/doucrochet.png'} />
                 </div>
+                <Swiper
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        // pagination={true}
+        modules={[EffectCoverflow, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <img src={process.env.PUBLIC_URL + '/img/doucrochet/acceuil.png'} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={process.env.PUBLIC_URL + '/img/doucrochet/inscription.png'} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={process.env.PUBLIC_URL + '/img/doucrochet/seconnecter.png'} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={process.env.PUBLIC_URL + '/img/doucrochet/profil.png'} />
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={process.env.PUBLIC_URL + '/img/doucrochet/userAdmin.png'} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={process.env.PUBLIC_URL + '/img/doucrochet/produitAdmin.png'} />
+        </SwiperSlide>
+      </Swiper>
                 <div>
                     <div className=" font-bold text-lg p-2 mt-8 ">Raison du projet Dou'Crochet </div>
                     <div className="p-2">Après le projet de montée en compétences sur Allo Movie, l'incubateur met en place une équipe pour travailler sur un projet fictif d'E-commerce. Lors de la réunion pour

@@ -1,3 +1,15 @@
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+
+// import required modules
+import { EffectCoverflow, Pagination } from "swiper";
+
 const DetailAlloMovie =()=> {
     return (
         <>
@@ -6,6 +18,32 @@ const DetailAlloMovie =()=> {
                 <div>
                 <img className="w-48" src={process.env.PUBLIC_URL + '/img/themovieDb.jpeg'} />
                 </div>
+                <Swiper
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        // pagination={true}
+        modules={[EffectCoverflow, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+        <img className="p-2" src={process.env.PUBLIC_URL + '/img/themoviedb/acceuil.png'} />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img className="p-2" src={process.env.PUBLIC_URL + '/img/themoviedb/details.png'} />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img className="p-2" src={process.env.PUBLIC_URL + '/img/themoviedb/favoris.png'} />
+        </SwiperSlide>
+      </Swiper>
                 <div>
                     <div className="mt-8 font-bold text-lg p-2">Raison du projet Allo Movie </div>
                     <div className="p-2">Lors de mon arrivé à l'incubateur en septembre 2022, il m'a été demandé de choisir un projet de montée en compétences qui m'accompagnerai pendant 2 semaines,

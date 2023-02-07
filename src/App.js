@@ -25,20 +25,21 @@ const App = () => {
     </div>
 
       <BrowserRouter>
-      <ScrollToTop/>
-        <Routes>        
+      <ScrollToTop/>     
+        <Routes>
           <Route path="/" element={<BaseScreen />}>
-            <Route index element={<HomeScreen />} />
-            <Route path="/techno" element={<TechnoScreen/>}/>
-            <Route path="/experience" element={<ExperienceScreen/>}/>
-            <Route path="/projet" element={<LoisirScreen/>}/>
-            <Route path="/projet/bemusician" element={<DetailBeMusicianScreen/>}/>
-            <Route path="/projet/doucrochet" element={<DetailDouCrochetScreen/>}/>
-            <Route path="/projet/allomovie" element={<DetailAlloMovie/>}/>
-            <Route path="/contact" element={<ContactScreen/>}/>
-            <Route path="/*" element={<HomeScreen />} />
+          <Route index element={<HomeScreen />} />
+          <Route path="/techno" element={<TechnoScreen/>}/>
+          <Route path="/experience" element={<ExperienceScreen/>}/>
+          <Route path="/projet" element={<LoisirScreen/>}/>
+          <Route path="/projet/bemusician" element={<DetailBeMusicianScreen/>}/>
+          <Route path="/projet/doucrochet" element={<DetailDouCrochetScreen/>}/>
+          <Route path="/projet/allomovie" element={<DetailAlloMovie/>}/>
+          <Route path="/contact" element={<ContactScreen/>}/>
+          <Route path="/*" element={<HomeScreen />} />
           </Route>
         </Routes>      
+   
       </BrowserRouter>
     </div>
 
