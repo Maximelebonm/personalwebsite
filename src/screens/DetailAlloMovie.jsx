@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -16,7 +16,7 @@ const DetailAlloMovie =()=> {
         <div>
             <div className=" text-slate-50 flex flex-1 flex-col items-center text-center pt-20 pb-16">
                 <div>
-                <img className="w-48" src={process.env.PUBLIC_URL + '/img/themovieDb.jpeg'} />
+                <img className="w-48" src={process.env.PUBLIC_URL + '/img/themovieDb.jpeg'} alt="AlloMovie logo"/>
                 </div>
                 <Swiper
         effect={"coverflow"}
@@ -35,24 +35,22 @@ const DetailAlloMovie =()=> {
         className="mySwiper"
       >
         <SwiperSlide>
-        <img className="p-2" src={process.env.PUBLIC_URL + '/img/themoviedb/acceuil.png'} />
+        <img className="p-2" src={process.env.PUBLIC_URL + '/img/themoviedb/acceuil.png'} alt="AlloMovie Acceuil"/>
         </SwiperSlide>
         <SwiperSlide>
-        <img className="p-2" src={process.env.PUBLIC_URL + '/img/themoviedb/details.png'} />
+        <img className="p-2" src={process.env.PUBLIC_URL + '/img/themoviedb/details.png'} alt="AlloMovie details"/>
         </SwiperSlide>
         <SwiperSlide>
-        <img className="p-2" src={process.env.PUBLIC_URL + '/img/themoviedb/favoris.png'} />
+        <img className="p-2" src={process.env.PUBLIC_URL + '/img/themoviedb/favoris.png'} alt="AlloMovie Favoris"/>
         </SwiperSlide>
       </Swiper>
                 <div>
                     <div className="mt-8 font-bold text-lg p-2">Raison du projet Allo Movie </div>
-                    <div className="p-2">Lors de mon arrivé à l'incubateur en septembre 2022, il m'a été demandé de choisir un projet de montée en compétences qui m'accompagnerai pendant 2 semaines,
-                    j'ai choisis AlloMovie qui utilise l'api the Movie DB, qui sert à créer une single page application avec du contenu déjà prêt.</div>
+                    <div className="p-2">Lors de mon arrivée à l'incubateur en septembre 2022, il m'a été demandé de choisir un projet de montée en compétences qui m'accompagnerait pendant 2 semaines, j'ai choisi AlloMovie qui utilise l'api the Movie DB, qui sert à créer une single page application avec du contenu déjà prêt.</div>
                 </div>
                 <div>
                     <div className="font-bold text-lg p-2 mt-8 ">Particularités du projet </div>
-                    <div className="p-2">C'est avec ce projet, que j'ai découvert Tailwind CSS permettant de mettre en place du css directement dans les balises Html,
-                    Il ma aussi permis de découvrir axios, d'utiliser React en fonctionnel et non plus avec le système de classe mais aussi d'organisé autrement mon travail.
+                    <div className="p-2">C'est avec ce projet, que j'ai découvert Tailwind CSS permettant de mettre en place du css directement dans les balises Html, Il m'a aussi permis de découvrir axios, d'utiliser React en fonctionnel et non plus avec le système de classe mais aussi d'organiser autrement mon travail.
                     </div>
                 </div>
                 <div className="font-bold text-lg mt-8"> Technologies Utilisées:</div>

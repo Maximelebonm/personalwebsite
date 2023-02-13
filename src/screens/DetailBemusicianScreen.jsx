@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -18,7 +18,7 @@ const DetailBeMusicianScreen = () => {
             <div>
                 <div className=" text-slate-50 flex flex-1 flex-col items-center text-center pt-20 pb-16">
                     <div>
-                    <img className="w-48" src={process.env.PUBLIC_URL + '/img/bemusician.png'} />
+                    <img className="w-48" src={process.env.PUBLIC_URL + '/img/bemusician.png'} alt="Bemusician logo"/>
                     </div>
                     <Swiper
         effect={"coverflow"}
@@ -37,25 +37,28 @@ const DetailBeMusicianScreen = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={process.env.PUBLIC_URL + '/img/bemusician/acceuil.png'} />
+          <img src={process.env.PUBLIC_URL + '/img/bemusician/acceuil.png'} alt="Bemusician Acceuil"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={process.env.PUBLIC_URL + '/img/bemusician/select.png'} />
+          <img src={process.env.PUBLIC_URL + '/img/bemusician/select.png'} alt="Bemusician selection"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={process.env.PUBLIC_URL + '/img/bemusician/player.png'} />
+          <img src={process.env.PUBLIC_URL + '/img/bemusician/player.png'} alt="Bemusician player"/>
         </SwiperSlide>
       </Swiper>
 
                     <div>
                         <div className="font-bold text-lg p-2 mt-8">Raison du projet Bemusian </div>
-                        <div className="p-2">BeMusician est à la base le projet "fil rouge" de ma formation de concepteur développeur d'application (CDA), il nous sert à montrer nos capacités lors de l'examen final pour obtenir le diplôme de concepteur d'application.
-                        Par la suite j'ai décidé d'aller plus loin et de le publier pour continuer à monter en compétences et notament découvrir la mise en ligne d'API.  </div>
+                        <div className="p-2">BeMusician est à la base le projet “fil rouge” de ma formation de concepteur développeur d'application (CDA), 
+                        il nous sert à montrer nos capacités lors de l'examen final pour obtenir le diplôme de concepteur d'application. 
+                        Par la suite j'ai décidé d'aller plus loin et de le publier pour continuer à monter en compétences et notamment découvrir 
+                        la mise en ligne d'API. </div>
                     </div>
                     <div>
                     <div className="font-bold text-lg p-2 mt-8 ">Particularités du projet </div>
-                    <div className="p-2">Ce projet à pour particularités d'avoir besoin d'une API et une base de données pour fonctionner, 
-                    mais aussi de fonctions utilisant des states globales pausant beaucoup de problèmes à résoudre. </div>
+                    <div className="p-2">Ce projet a pour particularités d'avoir besoin d'une API et une base de données pour 
+                    fonctionner, mais aussi de fonctions utilisant des states globales ou globaux ? pausant beaucoup de problèmes 
+                    à résoudre. </div>
                     </div>
                     <div className="font-bold text-lg"> Technologies utilisées:</div>
                     <div className="flex flex-col lg:flex-row mt-2">
@@ -71,7 +74,7 @@ const DetailBeMusicianScreen = () => {
                                     <li>- Responsive avec media Query ou tailwind</li>
                                     <li>- Utilisation d'axios pour les requêtes CRUD vers une API</li>
                                     <li>- Mise en ligne avec Firebase</li>
-                                    <li>- Sauvegardes avec <a className="bg-slate-900 hover:bg-pink-800" href="https://github.com/BeMusicianApp/BeMusicianFrontV1/" target="_blank">gitHub</a></li>
+                                    <li>- Sauvegardes avec <a className="bg-slate-900 hover:bg-pink-800" href="https://github.com/BeMusicianApp/BeMusicianFrontV1/" rel="noopener">gitHub</a></li>
                                 </ul>
                             </div>
                         </div>

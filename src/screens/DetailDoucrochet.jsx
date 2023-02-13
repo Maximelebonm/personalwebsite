@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -20,7 +20,7 @@ import { EffectCoverflow, Pagination } from "swiper";
         <div>
             <div className=" text-slate-50 flex flex-1 flex-col items-center text-center pt-20 pb-16">
                 <div>
-                <img className="w-48" src={process.env.PUBLIC_URL + '/img/doucrochet.png'} />
+                <img className="w-48" src={process.env.PUBLIC_URL + '/img/doucrochet.png'} alt="Dou'crochet logo"/>
                 </div>
                 <Swiper
         effect={"coverflow"}
@@ -39,35 +39,31 @@ import { EffectCoverflow, Pagination } from "swiper";
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={process.env.PUBLIC_URL + '/img/doucrochet/acceuil.png'} />
+          <img src={process.env.PUBLIC_URL + '/img/doucrochet/acceuil.png'} alt="Dou'crochet Acceuil"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={process.env.PUBLIC_URL + '/img/doucrochet/inscription.png'} />
+          <img src={process.env.PUBLIC_URL + '/img/doucrochet/inscription.png'} alt="Dou'crochet inscription"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={process.env.PUBLIC_URL + '/img/doucrochet/seconnecter.png'} />
+          <img src={process.env.PUBLIC_URL + '/img/doucrochet/seconnecter.png'} alt="Dou'crochet connexion"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={process.env.PUBLIC_URL + '/img/doucrochet/profil.png'} />
+          <img src={process.env.PUBLIC_URL + '/img/doucrochet/profil.png'} alt="Dou'crochet Acceul"/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={process.env.PUBLIC_URL + '/img/doucrochet/userAdmin.png'} />
+            <img src={process.env.PUBLIC_URL + '/img/doucrochet/userAdmin.png'} alt="Dou'crochet utilisateur"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={process.env.PUBLIC_URL + '/img/doucrochet/produitAdmin.png'} />
+          <img src={process.env.PUBLIC_URL + '/img/doucrochet/produitAdmin.png'} alt="Dou'crochet Administrateur"/>
         </SwiperSlide>
       </Swiper>
                 <div>
                     <div className=" font-bold text-lg p-2 mt-8 ">Raison du projet Dou'Crochet </div>
-                    <div className="p-2">Après le projet de montée en compétences sur Allo Movie, l'incubateur met en place une équipe pour travailler sur un projet fictif d'E-commerce. Lors de la réunion pour
-               choisir le thème de ce projet, j'ai proposé la vente de doudou fait main confectionné par un de mes proches, l'équipe a accepté, nous avont donc travailé sur dou'crochet. </div>
+                    <div className="p-2">Après le projet de montée en compétences sur Allo Movie, l'incubateur met en place une équipe pour travailler sur un projet fictif d'E-commerce. Lors de la réunion pour choisir le thème de ce projet, j'ai proposé la vente de doudous fait main confectionnés par un de mes proches, l'équipe a accepté, nous avons donc travaillé sur dou'crochet. </div>
                 </div>
                 <div>
                     <div className=" font-bold text-lg p-2 mt-8 ">Particularités du projet </div>
-                    <div className="p-2">Ce projet fût pour moi l'occasion de travailler en équipe pour la première fois, nous avons travaillé avec la méthode agile (Scrum),
-                    c'est à dire des réunion appelé "daily" tout les jours en présentielle ou distancielle, et une plus grosse réunion appelé "review" toutes les deux semaines pour finir ce que l'on appel un "sprint" ou une étape de développement, 
-                    système de "poker planning" pour prévoir les tâches à faire ainsi que leurs temps, et la mise en commun avec git et gitHub.
-                    Pour finir, j'ai naturellement été choisis (car anciennement graphiste) pour faire le logo que vous pouvez voir juste au dessus. </div>
+                    <div className="p-2">Ce projet fut pour moi l'occasion de travailler en équipe pour la première fois, nous avons travaillé avec la méthode agile (Scrum), c'est à dire des réunions appelées “daily” tous les jours en présentiel ou distanciel, et une plus grosse réunion appelée “review” toutes les deux semaines pour finir ce que l'on appelle un “sprint” ou une étape de développement, système de “poker planning” pour prévoir les tâches à faire ainsi que leur temps, et la mise en commun avec git et gitHub. Pour finir, j'ai naturellement été choisi (car anciennement graphiste) pour faire le logo que vous pouvez voir juste au dessus.</div>
                 </div>
                 <div className="font-bold text-lg mt-8">Technologies Utilisées:</div>
                 <div className="flex flex-col lg:flex-row mt-2">
