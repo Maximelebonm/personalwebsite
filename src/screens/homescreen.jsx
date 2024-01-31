@@ -17,7 +17,7 @@ const HomeScreen = (props) => {
 
     return (
         <>
-                <div className="text-white text-center flex flex-1 flex-col justify-center pt-20">
+                <div className="homeContainer text-white text-center flex flex-1 flex-col justify-center h-screen">
                     <div className="HomeDivOne">
                         <div className="homeDivTwo flex items-center flex-col lg:flex-row duration-300">
                             <div className="MyName p-2 align-center flex flex-col items-center">

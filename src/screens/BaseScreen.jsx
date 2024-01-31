@@ -8,8 +8,8 @@ const BaseScreen =()=>{
     return(
         <>
             <Starbackground/>
-            <main className="z-0 pt-4">
-                <Header/>
+            <main className="z-0">
+                {/* <Header/> */}
                 <Outlet />
             </main>   
         </>

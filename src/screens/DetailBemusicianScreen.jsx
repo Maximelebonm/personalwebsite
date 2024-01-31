@@ -20,6 +20,9 @@ const DetailBeMusicianScreen = () => {
                     <div>
                     <img className="w-48" src={process.env.PUBLIC_URL + '/img/bemusician.png'} alt="Bemusician logo"/>
                     </div>
+                    <div className="lg:w-4/5">
+
+                   
                     <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -46,6 +49,7 @@ const DetailBeMusicianScreen = () => {
           <img src={process.env.PUBLIC_URL + '/img/bemusician/player.png'} alt="Bemusician player"/>
         </SwiperSlide>
       </Swiper>
+      </div>
 
                     <div>
                         <div className="font-bold text-lg p-2 mt-8">Raison du projet Bemusian </div>

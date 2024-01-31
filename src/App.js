@@ -9,7 +9,7 @@ import BaseScreen from './screens/BaseScreen';
 import HomeScreen from './screens/homescreen';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ExperienceScreen from './screens/ExperienceScreen';
-import LoisirScreen from './screens/loisirScreen';
+import {LoisirScreen} from './screens/loisirScreen';
 import DetailBeMusicianScreen from './screens/DetailBemusicianScreen';
 import DetailDouCrochetScreen from './screens/DetailDoucrochet';
 import DetailAlloMovie from './screens/DetailAlloMovie';
@@ -29,7 +29,7 @@ const App = () => {
             <Route index element={<HomeScreen />} />
             <Route path="/techno" element={<TechnoScreen/>}/>
             <Route path="/experience" element={<ExperienceScreen/>}/>
-            <Route path="/projet" element={<LoisirScreen/>}/>
+            {/* <Route path="/projet" element={<LoisirScreen/>}/> */}
             <Route path="/projet/bemusician" element={<DetailBeMusicianScreen/>}/>
             <Route path="/projet/doucrochet" element={<DetailDouCrochetScreen/>}/>
             <Route path="/projet/allomovie" element={<DetailAlloMovie/>}/>

@@ -18,6 +18,7 @@ const DetailAlloMovie =()=> {
                 <div>
                 <img className="w-48" src={process.env.PUBLIC_URL + '/img/themovieDb.jpeg'} alt="AlloMovie logo"/>
                 </div>
+                <div className="lg:w-4/5">
                 <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -44,6 +45,7 @@ const DetailAlloMovie =()=> {
         <img className="p-2" src={process.env.PUBLIC_URL + '/img/themoviedb/favoris.png'} alt="AlloMovie Favoris"/>
         </SwiperSlide>
       </Swiper>
+      </div>
                 <div>
                     <div className="mt-8 font-bold text-lg p-2">Raison du projet Allo Movie </div>
                     <div className="p-2">Lors de mon arrivée à l'incubateur en septembre 2022, il m'a été demandé de choisir un projet de montée en compétences qui m'accompagnerait pendant 2 semaines, j'ai choisi AlloMovie qui utilise l'api the Movie DB, qui sert à créer une single page application avec du contenu déjà prêt.</div>

@@ -22,6 +22,9 @@ import { EffectCoverflow, Pagination } from "swiper";
                 <div>
                 <img className="w-48" src={process.env.PUBLIC_URL + '/img/doucrochet.png'} alt="Dou'crochet logo"/>
                 </div>
+                <div className="lg:w-4/5">
+
+               
                 <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -57,6 +60,7 @@ import { EffectCoverflow, Pagination } from "swiper";
           <img src={process.env.PUBLIC_URL + '/img/doucrochet/produitAdmin.png'} alt="Dou'crochet Administrateur"/>
         </SwiperSlide>
       </Swiper>
+      </div>
                 <div>
                     <div className=" font-bold text-lg p-2 mt-8 ">Raison du projet Dou'Crochet </div>
                     <div className="p-2">Après le projet de montée en compétences sur Allo Movie, l'incubateur met en place une équipe pour travailler sur un projet fictif d'E-commerce. Lors de la réunion pour choisir le thème de ce projet, j'ai proposé la vente de doudous fait main confectionnés par un de mes proches, l'équipe a accepté, nous avons donc travaillé sur dou'crochet. </div>

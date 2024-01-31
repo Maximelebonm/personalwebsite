@@ -2,7 +2,7 @@ import CardProject from "../components/CardProject"
 import "../CSS/Card.css"
 import Undertitle from "../components/undertitle"
 import CardHobbie from "../components/CardHobbie"
-const LoisirScreen = () => {
+export const LoisirScreen = () => {
     return (
         <div className="text-white text-center flex flex-col justify-center lg:pb-16 pt-20 pb-20 m-2">
             <div className="Titleloisir font-bold text-2xl">
@@ -25,4 +25,3 @@ const LoisirScreen = () => {
         </div>
     )
 }
-export default LoisirScreen
