@@ -7,7 +7,7 @@ const BaseScreen =()=>{
 
     return(
         <>
-            <Starbackground/>
+            {/* <Starbackground/> */}
             <main className="z-0">
                 {/* <Header/> */}
                 <Outlet />

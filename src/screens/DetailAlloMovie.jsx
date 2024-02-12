@@ -20,18 +20,17 @@ const DetailAlloMovie =()=> {
                 </div>
                 <div className="lg:w-4/5">
                 <Swiper
-        effect={"coverflow"}
-        grabCursor={true}
-        centeredSlides={true}
-        slidesPerView={"auto"}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
+            effect={"coverflow"}
+            grabCursor={true}
+            centeredSlides={true}
+            slidesPerView={"auto"}
+            coverflowEffect={{
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
         }}
-        // pagination={true}
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >

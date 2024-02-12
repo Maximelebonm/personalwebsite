@@ -1,5 +1,8 @@
 .homeContainer{
-    /* background-color: #0f172a; */
+    background-color: #0f172a;
+    width: 75%;
+    margin : auto;
+    border-radius : 10px;
 }
 
 .HomeDivOne{
@@ -126,6 +129,15 @@
 .homeRecruterCard{
     -webkit-animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.4s both;
             animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.4s both;
+}
+
+::-webkit-scrollbar{
+    width : 8px;
+}
+::-webkit-scrollbar-thumb{
+    opacity : 0.2;
+    background-color: rgba(29, 118, 190, 0.708);
+    border-radius: 5px;
 }
 
 @media (min-width:1024px) {

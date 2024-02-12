@@ -10,5 +10,6 @@ a {
 .ContentPage{
   position : fixed;
   z-index : -1;
-  background: linear-gradient(25deg, #9d174d 0%, #0f172a 80%);
+  background-color: black;
+  /* background: linear-gradient(25deg, #9d174d 0%, #0f172a 80%); */
 }

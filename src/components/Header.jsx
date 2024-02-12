@@ -35,7 +35,7 @@ const Header = () => {
                             CV
                         </div>
                         <div>
-                            <BsDownload />
+                            <BsDownload/>
                         </div>
                     </button>
                 </a>

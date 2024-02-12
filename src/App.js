@@ -25,11 +25,11 @@ const App = () => {
       <BrowserRouter>
       <ScrollToTop/>     
         <Routes>
-          <Route path="/" element={<BaseScreen />}>
+          <Route path="/" element={<TechnoScreen />}>
             <Route index element={<HomeScreen />} />
             <Route path="/techno" element={<TechnoScreen/>}/>
             <Route path="/experience" element={<ExperienceScreen/>}/>
-            {/* <Route path="/projet" element={<LoisirScreen/>}/> */}
+            <Route path="/projet" element={<LoisirScreen/>}/>
             <Route path="/projet/bemusician" element={<DetailBeMusicianScreen/>}/>
             <Route path="/projet/doucrochet" element={<DetailDouCrochetScreen/>}/>
             <Route path="/projet/allomovie" element={<DetailAlloMovie/>}/>

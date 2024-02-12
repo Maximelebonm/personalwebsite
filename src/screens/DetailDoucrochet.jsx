@@ -22,9 +22,7 @@ import { EffectCoverflow, Pagination } from "swiper";
                 <div>
                 <img className="w-48" src={process.env.PUBLIC_URL + '/img/doucrochet.png'} alt="Dou'crochet logo"/>
                 </div>
-                <div className="lg:w-4/5">
-
-               
+                <div className="lg:w-4/5">         
                 <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -37,10 +35,8 @@ import { EffectCoverflow, Pagination } from "swiper";
           modifier: 1,
           slideShadows: true,
         }}
-        // pagination={true}
         modules={[EffectCoverflow, Pagination]}
-        className="mySwiper"
-      >
+        className="mySwiper">
         <SwiperSlide>
           <img src={process.env.PUBLIC_URL + '/img/doucrochet/acceuil.png'} alt="Dou'crochet Acceuil"/>
         </SwiperSlide>
@@ -109,8 +105,7 @@ import { EffectCoverflow, Pagination } from "swiper";
                 </div>
             </div>
         </div>
-    </>
-     
+    </> 
     )
 }
 export default DetailDouCrochetScreen

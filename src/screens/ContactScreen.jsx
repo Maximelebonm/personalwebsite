@@ -17,11 +17,8 @@ const ContactScreen=()=>{
             <Undertitle className="barexperience"/>
             <div className="contactCard">
             <div className="text-xl font-bold mt-8">Par mail : </div>
-            <button className="buttonEffect text-xl bg-pink-800 hover:bg-slate-900 rounded-full h-12 w-80" onClick={copied}>lebon.maxime.m@gmail.com<BsFillCursorFill className="absolute"/></button>
-
-            </div>
-
-                
+                <button className="buttonEffect text-xl bg-pink-800 hover:bg-slate-900 rounded-full h-12 w-80" onClick={copied}>lebon.maxime.m@gmail.com<BsFillCursorFill className="absolute"/></button>
+            </div>   
             </div>
                 <div className="contactCard2 text-white text-center mt-8 rounded-lg flex flex-col items-center">
                     <div className="text-xl">
